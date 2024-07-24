@@ -25,26 +25,44 @@ This is a simple implementation of the 2048 game in HTML, CSS, and JavaScript. T
    ```sh
    git clone https://github.com/your-username/2048-game.git
 
-### Save and Push `README.md`
+### Full Command Sequence to Add and Push README.md
 
-1. **Save the file** if you edited it using a text editor.
-2. **Add and commit the `README.md` file**:
+1. Navigate to your project directory:
+    ```sh
+    cd path/to/your/project
+    ```
+
+2. Create the `README.md` file:
+    ```sh
+    touch README.md
+    ```
+
+3. Edit the `README.md` file with the content provided above using a text editor.
+
+4. Add the `README.md` file to the Git staging area:
     ```sh
     git add README.md
+    ```
+
+5. Commit the changes:
+    ```sh
     git commit -m "Add README.md"
     ```
 
-3. **Push the changes to GitHub**:
+6. Push the changes to the remote repository:
     ```sh
     git push origin master
     ```
 
-### Example Full Command Sequence:
+### Example Command Sequence
+
+Let's assume your project is located in `C:\Users\pavan\OneDrive\Desktop\2048` and your GitHub username is `ramkumar12`.
 
 ```sh
-cd path/to/your/project
+cd C:\Users\pavan\OneDrive\Desktop\2048
 touch README.md
-# Edit README.md with the content provided above using a text editor
+# Open README.md in a text editor and paste the corrected content
+
 git add README.md
 git commit -m "Add README.md"
 git push origin master
